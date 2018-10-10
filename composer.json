@@ -1,0 +1,24 @@
+{
+	"name": "jdlc/jdlctestbot",
+	"description": "JDLC Telegram Bot Test",
+	"keywords": ["ci","test","telegram"],
+	"authors": [
+		{
+			"name": "Juan Garcia",
+			"email": "jcruzgar@gmail.com"
+		}  
+	],
+	"require": {
+		"phpunit/php-code-coverage": "^5",
+		"monolog/monolog": "*",
+		"vlucas/phpdotenv": "^2.5"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^6"
+	},
+	"autoload": {
+		"psr-4": {
+			"jdlc\\telegram\\": "src"
+		}  
+	}  
+}
